@@ -14,9 +14,3 @@ def zip_folder(folder_path, zip_name):
 
     print(f"[+] Folder zipped to: {zip_path}")
     return zip_path
-
-
-if __name__ == "__main__":
-    folder = input("Enter folder to zip: ").strip()
-    name = input("Enter name for the zip file: ").strip()
-    zip_folder(folder, name)
